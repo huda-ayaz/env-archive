@@ -1,12 +1,13 @@
 import React, { useContext, useState, useEffect} from 'react';
 import { useNavigate, Link } from 'react-router-dom';
+import bridges from '../assets/bridges.jpg';
 
 const Blog = () => {
     return(
         <div>
             <div class= "profile">
-                <img id= "pfp" src = "img/bridges.png"></img>
-                <h3>Siobhan Bridges</h3>
+                <img id= "bridges" src ={bridges}></img>
+                <h3>Everett Bridges</h3>
                 <p>Head of Research at US Department of Environment and Sustainability</p>
                 <p>sbridges@env.us.gov</p> 
             </div>
