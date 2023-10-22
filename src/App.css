@@ -7,8 +7,17 @@ body {
   min-height: 100vh;
   display: flex;
   flex-direction: column;
+  /* background: url('../assets/wasteland.png') no-repeat center center/cover; */
 }
 
 .App {
   text-align: center;
 }
+
+/* .wasteland {
+  background-image: url("./assets/wasteland.png");
+}
+
+.transition {
+  background-image: url("./assets/wasteland-transition.png");
+} */
