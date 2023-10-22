@@ -1,0 +1,121 @@
+.tbody {
+    background-color: black;
+    color: white;
+}
+
+/* p {
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    color: white;
+
+} */
+
+/* h1 {
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    color: white;
+    text-align: left;
+    padding-left:50px;
+} */
+
+/* h3 {
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 16px;
+    color: white;
+} */
+
+hr {
+    margin-left: 30px;
+    margin-right:200px;
+}
+
+
+
+.profile {
+    float: right;
+    width:150px;
+    height:auto;
+    top: 50;
+    right: 50;
+    overflow: hidden;
+    padding-top:20px;
+    padding-right:20px;
+    text-align: left;
+}
+
+.pfp{
+    margin-left: 5px;
+    margin-right: 5px;
+    width: 140px;
+    height: auto;
+    position: relative;
+}
+
+.pfp #bridges {
+    width: 140px;
+    height: auto;
+}
+
+.reveal {
+    position: absolute;
+    top: 0; 
+    bottom: 5px; 
+    left: 0; 
+    right: 0;
+    margin-top: auto;
+    margin-bottom: auto;
+    padding-top: 40%;
+    text-align: center;
+    color: black;
+
+    background-color:white;
+    visibility: hidden;
+    opacity: 0;
+
+    transition: opacity .3s, visibility .3s;
+
+}
+
+.pfp:hover .reveal {
+    visibility: visible;
+    opacity: .3;
+
+}
+
+.text {
+    display: block;
+    padding-right:30px;
+    width:50%;
+    text-align: left;
+    padding-left:30px;
+    padding-bottom:70px;
+}
+
+.post {
+    display:block;
+    flex: 50%;
+    margin-left:20px;
+    margin-top:40px;
+    padding: 5px;
+    padding-left:10px;
+    border-radius: 1px;
+    border-color:white;
+    border-style:dashed;
+    top:0;
+    right:0;
+    bottom:0;
+    left:0;
+
+    background-color:gray;
+
+}
+
+.post p, .post h3 {
+    background-color:gray;
+}
+
+.fish {
+    flex: 50%;
+}
+
+.tbody {
+    display: flex;
+}
