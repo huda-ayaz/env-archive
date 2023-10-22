@@ -5,7 +5,7 @@ import salmon from "../assets/fish.png";
 import "../App.css";
 import "../stylesheets/Blog.css";
 
-const Blog = () => {
+const Blog = ({unlockBlog}) => {
     return(
         <div>
             <div class= "profile">
@@ -15,7 +15,7 @@ const Blog = () => {
                 </div>
                 <h3>Everett Bridges</h3>
                 <p>Head of Research at US Department of Environment and Sustainability</p>
-                <p>sbridges@env.us.gov</p> 
+                <p onClick = {unlockBlog}>ebridges@env.us.gov</p> 
             </div>
             
             <h1 class = 'blog-title'>Archive 20-41: </h1>
@@ -23,6 +23,8 @@ const Blog = () => {
             <div class = "tbody">
                 <div class = "fish">
                     
+                    <img class= 'blog-pic' src={salmon}/>
+                    <img class= 'blog-pic' src={salmon}/>
                     <img class= 'blog-pic' src={salmon}/>
 
                 </div>
