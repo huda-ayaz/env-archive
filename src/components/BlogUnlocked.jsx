@@ -1,12 +1,12 @@
 import React, { useContext, useState, useEffect } from 'react';
 import { useNavigate, Link, Router } from 'react-router-dom';
 
-const Blog = () => {
+const BlogUnlocked = () => {
     return(
         <div>
-            <h1>Blog</h1>
+            <h1>Blog Unlocked</h1>
         </div>
     )
 }
 
-export default Blog;
+export default BlogUnlocked;
