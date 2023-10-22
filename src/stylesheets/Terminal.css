@@ -1,0 +1,59 @@
+/* General Terminal Styling */
+.terminal-text {
+    font-family: 'Source Code Pro', monospace;
+    margin-left: 7px;
+    margin-top: 2px;
+    margin-bottom: 0;
+}
+
+.window {
+    background-color: black;
+    color: #4AF626;
+    text-align: left;
+    font-weight: bold;
+    width: 70%;
+    height: 600px;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 5px;
+}
+
+/* Terminal Bar Styling */
+.terminal-bar {
+    background-color: #464e49;
+    color: #4AF626;
+    text-align: right;
+    font-weight: bold;
+    width: 100%;
+    height: 30px;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    border-radius: 5px;
+    margin-bottom: 5px;
+}
+
+.terminal-bar-button {
+    margin: 0 10px;
+    margin-top: -5px;
+    font-size: 30px;
+    font-weight: 300;
+}
+
+.close {
+    margin-top: 13px;
+    margin-right: 15px;
+}
+
+/* Terminal Body Styling */
+.request {
+    display: flex;
+}
+
+.cursor {
+    margin-left: 5px;
+    background-color: black;
+    color: white;
+}
