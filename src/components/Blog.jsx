@@ -1,6 +1,7 @@
 import React, { useContext, useState, useEffect} from 'react';
 import { useNavigate, Link } from 'react-router-dom';
 import bridges from "../assets/bridges.jpg";
+import salmon from "../assets/fish.png";
 import "../App.css";
 import "../stylesheets/Blog.css";
 
@@ -9,19 +10,20 @@ const Blog = () => {
         <div>
             <div class= "profile">
                 <div class = "pfp">
-                    <img id= "bridges" src='bridges'/>
+                    <img id= "bridges" src={bridges}/>
                     <p class= "reveal">Contact the director</p>
                 </div>
                 <h3>Everett Bridges</h3>
                 <p>Head of Research at US Department of Environment and Sustainability</p>
                 <p>sbridges@env.us.gov</p> 
             </div>
-
-            <h1>Archive 20-41: </h1>
-            <hr></hr>
+            
+            <h1 class = 'blog-title'>Archive 20-41: </h1>
+         
             <div class = "tbody">
                 <div class = "fish">
-
+                    
+                    <img class= 'blog-pic' src={salmon}/>
 
                 </div>
                 <div class = "text">
@@ -85,7 +87,7 @@ const Blog = () => {
                             My curiosity led me to investigate further--
                         </p>
                         <p>
-                            The ███████████, which I have tentatively dubbed ██████████████████████ exhibit an array of bizarre characteristics. 
+                            The ███████████, which I have tentatively dubbed ███████████████████ exhibit an array of bizarre characteristics. 
                             They are considerably larger, with some individuals measuring nearly twice the size of the native fish species in the area. 
                         </p>
                         <p>
