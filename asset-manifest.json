@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/react-gh-pages/static/css/main.31c36a82.css",
-    "main.js": "/react-gh-pages/static/js/main.cf2354a6.js",
-    "static/js/787.3dd5b633.chunk.js": "/react-gh-pages/static/js/787.3dd5b633.chunk.js",
-    "static/media/fish.png": "/react-gh-pages/static/media/fish.fbb8d1283d7a9c273cb5.png",
-    "static/media/wasteland.png": "/react-gh-pages/static/media/wasteland.e1372e008a2ae69c7f1a.png",
-    "static/media/bridges.jpg": "/react-gh-pages/static/media/bridges.68e1f5e7c033fb6bbb1b.jpg",
-    "static/media/logo.png": "/react-gh-pages/static/media/logo.00314b2ef60ff48a66a6.png",
-    "index.html": "/react-gh-pages/index.html",
-    "main.31c36a82.css.map": "/react-gh-pages/static/css/main.31c36a82.css.map",
-    "main.cf2354a6.js.map": "/react-gh-pages/static/js/main.cf2354a6.js.map",
-    "787.3dd5b633.chunk.js.map": "/react-gh-pages/static/js/787.3dd5b633.chunk.js.map"
+    "main.css": "/env-archive/static/css/main.8ba7f37c.css",
+    "main.js": "/env-archive/static/js/main.e50eb713.js",
+    "static/js/787.3dd5b633.chunk.js": "/env-archive/static/js/787.3dd5b633.chunk.js",
+    "static/media/fish.png": "/env-archive/static/media/fish.fbb8d1283d7a9c273cb5.png",
+    "static/media/wasteland.png": "/env-archive/static/media/wasteland.e1372e008a2ae69c7f1a.png",
+    "static/media/bridges.jpg": "/env-archive/static/media/bridges.68e1f5e7c033fb6bbb1b.jpg",
+    "static/media/logo.png": "/env-archive/static/media/logo.00314b2ef60ff48a66a6.png",
+    "index.html": "/env-archive/index.html",
+    "main.8ba7f37c.css.map": "/env-archive/static/css/main.8ba7f37c.css.map",
+    "main.e50eb713.js.map": "/env-archive/static/js/main.e50eb713.js.map",
+    "787.3dd5b633.chunk.js.map": "/env-archive/static/js/787.3dd5b633.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.31c36a82.css",
-    "static/js/main.cf2354a6.js"
+    "static/css/main.8ba7f37c.css",
+    "static/js/main.e50eb713.js"
   ]
 }
