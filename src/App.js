@@ -14,14 +14,17 @@ import BlogUnlocked from './components/BlogUnlocked';
 
 function App() {
   const [isBlogUnlocked, setIsBlogUnlocked] = useState(false);
-
+  
+  const unlockBlog = () => {
+    setIsBlogUnlocked(!isBlogUnlocked);
+  };
   return (
     <div className="App">
       <Router>
         <Navbar isBlogUnlocked={isBlogUnlocked}/>
         <Routes>
           <Route path="/" element={<Home />} />
-          <Route path="/blog" element={<Blog />} />
+          <Route path="/blog" element={<Blog unlockBlog = {unlockBlog}  />} />
           <Route path="/blog-unlocked" element={<BlogUnlocked />} />
         </Routes>
       </Router>
