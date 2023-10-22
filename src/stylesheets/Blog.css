@@ -1,3 +1,5 @@
+
+
 .tbody {
     background-color: black;
     color: white;
@@ -22,23 +24,34 @@
     color: white;
 } */
 
-hr {
-    margin-left: 30px;
-    margin-right:200px;
+
+
+.blog-title {
+    color: white;
+    text-align: left;
+    padding-left:50px;
+    padding-top:100px;
+    margin-bottom:-40px;
+    padding-bottom: 40px;
+    background-color: black;
 }
 
 
 
 .profile {
+    
+    background-color: black;
+    position: fixed;
     float: right;
-    width:150px;
+    width:155px;
     height:auto;
-    top: 50;
-    right: 50;
+    top: 50px;
+    right: 50px;
     overflow: hidden;
-    padding-top:20px;
-    padding-right:20px;
+    margin-top:70px;
+    padding-right:0px;
     text-align: left;
+    color:white;
 }
 
 .pfp{
@@ -81,11 +94,12 @@ hr {
 }
 
 .text {
+    
     display: block;
     padding-right:30px;
     width:50%;
     text-align: left;
-    padding-left:30px;
+    margin-left:30px;
     padding-bottom:70px;
 }
 
@@ -103,7 +117,6 @@ hr {
     right:0;
     bottom:0;
     left:0;
-
     background-color:gray;
 
 }
@@ -118,4 +131,13 @@ hr {
 
 .tbody {
     display: flex;
+    padding-right:200px;
+}
+
+.blog-pic {
+    padding-left: 30px;
+    margin-right:40px;
+    margin-top:40px;
+    width:100%;
+    height:auto;
 }
