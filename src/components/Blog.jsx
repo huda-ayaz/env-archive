@@ -5,7 +5,7 @@ import salmon from "../assets/fish.png";
 import "../App.css";
 import "../stylesheets/Blog.css";
 
-const Blog = ({unlockBlog}) => {
+const Blog = ({unlockBlog, isBlogUnlocked}) => {
     return(
         <div>
             <div class= "profile">
@@ -16,6 +16,8 @@ const Blog = ({unlockBlog}) => {
                 <h3>Everett Bridges</h3>
                 <p>Head of Research at US Department of Environment and Sustainability</p>
                 <p onClick = {unlockBlog}>ebridges@env.us.gov</p> 
+                {isBlogUnlocked && <p className='congrats'>Congratulations for recognizing the importance of seeking knowledge and attempting to reach out to the experts. Stay informed{':)'}</p>}
+                
             </div>
             
             <h1 class = 'blog-title'>Archive 20-41: </h1>
@@ -119,9 +121,9 @@ const Blog = ({unlockBlog}) => {
                             Our work remains vital, and we must continue to fight for a more sustainable and equitable world.
                         </p>
                     </div>
+                    <p className='note'>Editor's Note: The alt text for some of the images may be wrong-- please check.</p>
 
                 </div>
-
                 
             </div>
         </div>
