@@ -5,7 +5,12 @@
     height: 10%;
     background: #57c94d;
 } */
-html {
+
+/* html {
+    background:#e1f1ff;
+} */
+
+.page-back {
     background:#e1f1ff;
 }
 
