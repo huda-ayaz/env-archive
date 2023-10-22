@@ -5,19 +5,80 @@
     height: 10%;
     background: #57c94d;
 } */
-* {
+html {
     background:#e1f1ff;
 }
 
 .unblocked-header{
-    background-color:RGBA(73, 91, 157, 0.5);
+    position:absolute;
+    top:60px;
+    /* background-color:RGBA(73, 91, 157, 0.9); */
+    font-size:20px;
+    margin-left:90px;
+    margin-right:90px;
     padding:5px;
 }
 
 .unblocked-header-fill{
-    background-color:RGBA(73, 91, 157, 0.5);
+    background-color:RGBA(73, 91, 157, 0);
 }
 
 h1{
     font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+.introduction{
+    position:absolute;
+    top:250px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    margin-left:150px;
+    margin-right:150px;
+    margin-top:30px;
+    text-align:justify;
+    font-size:23px;
+}
+
+.fish-banner{
+    margin-left:auto;
+    margin-right:auto;
+    margin-top:500px;
+    margin-bottom:20px;
+    width:50%;
+    height:auto;
+    object-fit: cover;
+}
+
+.subtitle{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    margin-left:150px;
+    margin-right:150px;
+    margin-bottom:-20px;
+    font-size:23px;
+    text-align:left;
+}
+
+.content{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size:20px;
+    margin-left:150px;
+    margin-right:150px;
+    text-align:justify;
+}
+
+.logging{
+    margin-left:auto;
+    margin-right:auto;
+    margin-bottom:20px;
+    width:50%;
+    height:auto;
+    object-fit: cover;
+}
+
+.trees{
+    margin-left:auto;
+    margin-right:auto;
+    margin-bottom:20px;
+    width:50%;
+    height:auto;
+    object-fit: cover;
 }
