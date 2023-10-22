@@ -1,6 +1,7 @@
 import React, { useContext, useState, useEffect} from 'react';
 import { useNavigate, Link } from 'react-router-dom';
-import bridges from '../assets/bridges.jpg';
+import bridges from "../assets/bridges.jpg";
+import "../App.css";
 import "../stylesheets/Blog.css";
 
 const Blog = () => {
@@ -8,7 +9,7 @@ const Blog = () => {
         <div>
             <div class= "profile">
                 <div class = "pfp">
-                    <img id= "bridges" src ={bridges}></img>
+                    <img id= "bridges" src='bridges'/>
                     <p class= "reveal">Contact the director</p>
                 </div>
                 <h3>Everett Bridges</h3>
@@ -18,7 +19,7 @@ const Blog = () => {
 
             <h1>Archive 20-41: </h1>
             <hr></hr>
-            <div class = "body">
+            <div class = "tbody">
                 <div class = "fish">
 
 

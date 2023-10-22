@@ -1,25 +1,26 @@
-* {
+.tbody {
     background-color: black;
+    color: white;
 }
 
-p {
+/* p {
     font-family:Georgia, 'Times New Roman', Times, serif;
     color: white;
 
-}
+} */
 
-h1 {
+/* h1 {
     font-family:Georgia, 'Times New Roman', Times, serif;
     color: white;
     text-align: left;
     padding-left:50px;
-}
+} */
 
-h3 {
+/* h3 {
     font-family:Georgia, 'Times New Roman', Times, serif;
     font-size: 16px;
     color: white;
-}
+} */
 
 hr {
     margin-left: 30px;
@@ -115,6 +116,6 @@ hr {
     flex: 50%;
 }
 
-.body {
+.tbody {
     display: flex;
 }
