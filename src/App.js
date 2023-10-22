@@ -18,13 +18,14 @@ function App() {
   const unlockBlog = () => {
     setIsBlogUnlocked(!isBlogUnlocked);
   };
+
   return (
     <div className="App">
       <Router>
         <Navbar isBlogUnlocked={isBlogUnlocked}/>
         <Routes>
           <Route path="/" element={<Home />} />
-          <Route path="/blog" element={<Blog unlockBlog = {unlockBlog}  />} />
+          <Route path="/blog" element={<Blog unlockBlog = {unlockBlog} isBlogUnlocked={isBlogUnlocked}/>} />
           <Route path="/blog-unlocked" element={<BlogUnlocked />} />
         </Routes>
       </Router>
