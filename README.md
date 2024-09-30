@@ -1,3 +1,7 @@
+# How to Access
+
+View the game [https://huda-ayaz.github.io/env-archive/](here). Click "Home" to view the terminal and begin.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
